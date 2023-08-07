@@ -1,3 +1,6 @@
 # VSCode with Arduino Extension
 .vscode/*
 build/*
+
+# Development Files
+tasks.md
