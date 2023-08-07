@@ -66,9 +66,10 @@ void setup() {
   //matrix.setTextColor(matrix.Color(255, 0, 255)); //magenta
   matrix.setBrightness(BRIGHTNESS);    // Batteries have limited sauce
 
-  strcpy(msg, "CatwalkCharity.org");  // Default Starting Message
-  //strcpy(msg, "Amped Atelier");  // Default Starting Message
-  //strcpy(msg, "UnitedAgainstCancer");  // Default Starting Message
+  strcpy(msg, "Amped Atelier");  // Default Starting Message
+  //strcpy(msg, "Future of Fashion");
+  //strcpy(msg, "CatwalkCharity.org");
+  //strcpy(msg, "UnitedAgainstCancer");
   msgLen = sizeof(msg);
 
 //  while (!Serial);  // required for Flora & Micro
